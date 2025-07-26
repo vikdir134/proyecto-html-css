@@ -17,11 +17,18 @@
 - Creamos botones que dirigen a otro html
 - Agregamos header y footer y comprendemos su funcionamiento
 - Agregamos <nav> para el tema de navegar entre html
+- Agregamos weith auto para que se acomode al tamaño automaticaemnte ademas del codigo en style @media(max-width:1200px )
+logrando que a paritr de los 1200 px el contenido cambie
 **Extra:**
 - 26/07/2025 RESULTADO
 
 ![Imagen Alt](https://github.com/vikdir134/proyecto-html-css/blob/5df46dcb99d4a5c24caa18d2bb5b72a1ccd4efa6/imagen_2025-07-26_010240019.png)
 
--26/07/2025 Segundo resultado
+- 26/07/2025 Segundo resultado
+
 ![Imagen Alt](assets/home.png)
 ![Imagen Alt](assets/sobremi.png)
+
+- 26/07/2025 Tercer Resultado
+
+![Imagen Alt](assets/home-app.png) ![Imagen Alt](assets/sobremi-app.png)
