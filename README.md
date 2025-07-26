@@ -12,3 +12,6 @@
     align-items: center;
 
 **Extra:**
+- 26/07/2025 RESULTADO
+
+![Imagen Alt](https://github.com/vikdir134/proyecto-html-css/blob/5df46dcb99d4a5c24caa18d2bb5b72a1ccd4efa6/imagen_2025-07-26_010240019.png)
