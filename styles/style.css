@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --color-primario:#000000;
+    --color-secundario:#F6F6F6;
+    --color-terciario:#22D4FD;
+    --color-cuaternario:#272727;
+
+    --fuente-montserrat: "Montserrat", sans-serif;
+    --fuente-krona: "Krona One", sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
+    box-sizing: border-box;/* Aqui agregamos el border - box para que no salga del body nada
+    se ajusta el elemento hijo al elemento padre */
+}
+.header{
+    padding: 2% 0  0 15%;/* Aqui agregamos el padding para que no se pegue al borde del body primero es el top y el ultimo izquierda*/
+}
+
+.header__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.header__menu__link{
+    font-family: var(--fuente-montserrat);
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--color-terciario);
+    text-decoration: none;/* Aqui quitamos el subrayado de los links*/
+}
+.titulo-destaque{
+    color: var(--color-terciario)
+}
+.presentacion{
+    display: flex;
+    align-items: center;
+    padding: 6% 15%;
+    justify-content: space-between;
+    }
+
+.presentacion_contenido{
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap:40px
+}
+
+.presentacion_contenido_titulo{
+    font-size: 36px;
+    font-family: var(--fuente-krona);
+
+}
+
+.presentacion_contenido_texto{
+    font-family: var(--fuente-montserrat);
+    font-size: 24px
+}
+.presentacion_botones{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;/*Eje vertical*/
+    gap: 32px;
+}
+.Presentacion_enlaces_subtitulo{
+    font-family: var(--fuente-krona);
+    font-size: 24px;
+    font-weight: 400;
+}
+.presentacion_enlaces_link{
+    width: 378px;
+    text-align: center; 
+    padding: 21.5px 0;  
+    border-radius: 8px; 
+    font-family: var(--fuente-montserrat);
+    font-size:24px;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--color-secundario);
+    border: 2px solid var(--color-terciario);
+    display: flex;
+    justify-content: center;/*Eje horizontal*/
+    gap: 10px;
+}
+.presentacion_enlaces_link:hover{/* Efecto hover cuando colocamos el cursor en el link cambia e color*/
+    background-color: var(--color-cuaternario);
+}
+.footer{
+    background-color: var(--color-terciario);
+    padding: 24px;
+    color:var(--color-primario);
+    font-family: var(--fuente-montserrat);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+}

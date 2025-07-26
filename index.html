@@ -4,10 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Portafolio </title>
-    <link rel="stylesheet" href="style.css"> <!-- Aqui conectamos el archivo style con el html-->
+    <link rel="stylesheet" href="/styles/style.css"> <!-- Aqui conectamos el archivo style con el html-->
 </head>
 <body>
-    <header></header>
+    <header class="header">
+        <nav class="header__menu">
+            <a class="header__menu__link" href="index.html">Home</a>
+            <a class="header__menu__link" href="about.html">Sobre mi</a>
+        </nav>
+    </header>
     <main class="presentacion">
         <section class="presentacion_contenido">
             <h1 class="presentacion_contenido_titulo">
@@ -20,12 +25,22 @@
                 ideas. ¿Hablamos?
             </p>
             <div class="presentacion_botones">   
-                <a class="presentacion_enlaces_link" href ="https://www.instagram.com">Instagram</a>
-                <a class="presentacion_enlaces_link" href ="https://www.github.com">GitHub</a>
+                <h2 class="Presentacion_enlaces_subtitulo">Accede a mis redes:</h2>
+                <a class="presentacion_enlaces_link" href ="https://github.com/vikdir134">
+                    <img src="./assets/github.png">
+                    Github </a>
+                <a class="presentacion_enlaces_link" href ="https://www.linkedin.com/in/victor-antonio-camargo-chuchon-0b036823a">
+                    <img src="./assets/linkedin.png">
+                    Linkedin</a>
+                <a class="presentacion_enlaces_link" href ="https://www.twitch.tv/vikdir">
+                    <img src="./assets/twitch.png">
+                    Twitch</a>
             </div>
         </section>
-        <img src="Rectangle 47.png" alt="Imagen de Ana García trabajando">
+        <img src="./assets/Imagem.png" alt="Imagen de Ana García trabajando">
     </main>
-    <footer></footer>
+    <footer class="footer">
+       <p>Desarrollado por Victor Camargo</p> 
+    </footer>
 </body>
 </html>
